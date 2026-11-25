@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Function to proxy GPX URLs through your Vercel CORS proxy
 function proxyGpxUrl(localPath) {
-  const baseUrl = 'https://siroccomeister.github.io/f3';
+  const baseUrl = 'https://divide.atarigo.net';
   const proxyUrl = 'https://proxy-cors-azure.vercel.app/api/gpx-proxy?url=';
   return proxyUrl + baseUrl + localPath;
 }
